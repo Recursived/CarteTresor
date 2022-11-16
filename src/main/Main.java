@@ -9,9 +9,8 @@ public class Main {
 		IUserCommand uc = new GameManager();
 		uc.toggleDebug();
 		try {
-			uc.loadGame("src/test/core/test_collision_adventurer.test");
+			uc.loadGame("src/test/core/teAst_hollistic.test");
 			uc.simulateGame();
-			
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
